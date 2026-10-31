@@ -1,0 +1,41 @@
+# ===== 依赖与构建产物（可重建，不进入版本库）=====
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+
+# ===== 大文件与压缩包 =====
+*.zip
+*.7z
+*.rar
+*.tar.gz
+
+# ===== 隐私 / 本地配置 / 数据（绝不进公开仓库）=====
+.env
+.env.*
+*.key
+*.pem
+qq-bridge/data/
+qq-bridge/config*.json
+config.local.json
+
+# ===== 日志与临时文件 =====
+*.log
+*.tmp
+*.temp
+.log/
+logs/
+tmp/
+
+# ===== 系统 / 编辑器 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
